@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  background-color: #2D2D2D;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1{
+    color: white;
+}
+body{
+    width: 75%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    /* border: 1px solid white; */
+    display:  inline-block;
+}
+
+.box{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+    transform: rotate(45deg);
+}
+.box:last-child{
+    transform: rotate(-45deg);
+}
