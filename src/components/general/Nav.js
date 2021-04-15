@@ -20,7 +20,6 @@ const NavStylish = styled.nav`
         display: block;
         padding: 20px 0 20px 5px;
         text-decoration: none;
-
     }
     width: 70%;
 
@@ -41,7 +40,7 @@ const NavStylish = styled.nav`
 
 
 
-export const Nav = ({open}) => {
+export const Nav = ({open,handleMenu}) => {
     return (
         <>
             <NavStylish 
@@ -50,7 +49,8 @@ export const Nav = ({open}) => {
                 <ul>
                     <li>
                         <Link
-                        to = '/'
+                            to = '/'
+                            onClick = {handleMenu}
                         >
                         Inicio
                         </Link>
@@ -58,7 +58,8 @@ export const Nav = ({open}) => {
 
                     <li>
                         <Link
-                        to = '/aboutUs'
+                            to = '/aboutUs'
+                            onClick = {handleMenu}
                         >
                         Sobre nosotros
                         </Link>

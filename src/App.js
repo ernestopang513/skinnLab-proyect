@@ -16,15 +16,21 @@ const DIV = styled.div`
 `;
 const App = () => {
   const [open, setOpen] = useState(false);
+  const handleMenu = () => {
+    setOpen(!open);
+    console.log(open);
+    
+}
   return (
     <Router>
       {/* <Wrapper > */}
         <Header
           open = {open}
-          setOpen = {setOpen}  
+          handleMenu = {handleMenu}  
         />
         <Nav
           open = {open}
+          handleMenu = {handleMenu}
         />
       {/* </Wrapper> */}
       <Switch>
