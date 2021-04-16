@@ -9,7 +9,7 @@ const HeaderStyled = styled.header`
     .box{
         width: 20px;
         height: 2px;
-        background-color: black;
+        background-color: white;
         margin: 3px 0;
         transition: all .3s ease;
     }

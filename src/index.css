@@ -2,7 +2,7 @@
 html {
   box-sizing: border-box;
   background-color: #2D2D2D;
-  background-color: yellow;
+  
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,14 +13,22 @@ html {
   padding: 0;
 }
 
+a{
+  font-family: 'Dancing Script', cursive;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  color: white;
+  color:#DED7C7;
+  color:#F4FFE8;
+  color: white;
+
 }
 
 code {

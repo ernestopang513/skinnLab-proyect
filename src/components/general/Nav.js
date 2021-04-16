@@ -20,6 +20,8 @@ const NavStylish = styled.nav`
         display: block;
         padding: 20px 0 20px 5px;
         text-decoration: none;
+        font-weigth: bold;
+        font-size: 30px;
     }
     width: 70%;
 
@@ -38,7 +40,9 @@ const NavStylish = styled.nav`
 
 `;
 
-
+// const IMG = styled.img`
+//     width: 70px;
+// `;
 
 export const Nav = ({open,handleMenu}) => {
     return (
@@ -53,6 +57,7 @@ export const Nav = ({open,handleMenu}) => {
                             onClick = {handleMenu}
                         >
                         Inicio
+                        
                         </Link>
                     </li>
 
