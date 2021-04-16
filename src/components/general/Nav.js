@@ -7,6 +7,7 @@ const NavStylish = styled.nav`
     transition: all 0.5s ease;
     background-color: white;
     position: absolute;
+
     
     ul{
         display: block; 

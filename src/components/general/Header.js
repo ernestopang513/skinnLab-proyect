@@ -1,11 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// En este Header styled estan contenidos el div que contine los div del menú y la funcion que permite
+// que que roten al dar click en ellos tambien estan las reglas de media querie que los diferentes tamaños
+// Nota: para que funcionen las arrow funcions se deben de pasar las variables de control a los componentes creados con stylish components
+
 const HeaderStyled = styled.header`
 
-    display: flex;
     align-items: center;
-    justify-content: space-around;    
+    display: flex;
+    justify-content: space-around;
+    padding-top:35px;    
+    margin-bottom:20px;
     .box{
         width: 20px;
         height: 2px;
