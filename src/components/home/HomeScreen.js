@@ -14,7 +14,7 @@ export const HomeScreen = () => {
 
 
                 <p>
-                    Algunos de nuestros trabajos
+                    Algunos de nuestros trabajos poderosos
                 </p>
                 </main>
                 {/* <a href="https://www.fontspace.com/category/scribble"><IMG src="https://see.fontimg.com/api/renderfont4/8L7n/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SU5JQ0lP/ten-o-clock-regular.png" alt="Scribble fonts"/></a> */}
