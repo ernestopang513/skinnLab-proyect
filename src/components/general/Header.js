@@ -1,5 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import skinlab from '../../imagenes/skinlab-baner.png';
 
 // En este Header styled estan contenidos el div que contine los div del menú y la funcion que permite
 // que que roten al dar click en ellos tambien estan las reglas de media querie que los diferentes tamaños
@@ -12,6 +14,15 @@ const HeaderStyled = styled.header`
     justify-content: space-around;
     padding-top:35px;    
     margin-bottom:20px;
+
+    a{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+        // height: 10%;
+    }
+
     .box{
         width: 20px;
         height: 2px;
@@ -28,11 +39,16 @@ const HeaderStyled = styled.header`
     .box:nth-child(3){
         transform: ${({open}) => open ? 'rotate(-45deg);' : 'rotate(0deg);'}
     }
+
+
     
 
     @media (min-width: 768px ){
         .menu{
             display: none;
+        }
+        a{
+            width:20%;
         }
     }
 `;
@@ -43,7 +59,11 @@ export const Header = ({open, handleMenu}) => {
             <HeaderStyled
                 open = {open}
             >
-                <h1>Skin Lab</h1>
+                <Link
+                    to='/'
+                >
+                    <img src = {skinlab}/>
+                </Link>
                 <div 
                     className = 'menu'
                     onClick = {handleMenu}

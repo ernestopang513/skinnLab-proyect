@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Wrapper } from '../../stylish__src/stylish__src'
+import './HomeScreen.css';
 
 
 
@@ -9,7 +10,7 @@ export const HomeScreen = () => {
         <div>
             <Wrapper>
                 <main>
-                <h1>Tatto y Body Piercing</h1>
+                <h1>Tatto y Body Piercing.</h1>
 
 
                 <p>
