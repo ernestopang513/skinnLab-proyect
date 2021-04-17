@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  BrowserRouter as Router,
+  BrowserRouter as HashRouter,
   Switch,
   Route,
   Redirect
@@ -22,7 +22,7 @@ const App = () => {
     
 }
   return (
-    <Router>
+    <HashRouter>
       {/* <Wrapper > */}
         <Header
           open = {open}
@@ -49,7 +49,7 @@ const App = () => {
       <DIV>
         <h2>Footer</h2>
       </DIV>
-    </Router>
+    </HashRouter>
   )
 }
 export default App;
