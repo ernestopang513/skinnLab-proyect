@@ -18,7 +18,7 @@ const App = () => {
   const [open, setOpen] = useState(false);
   const handleMenu = () => {
     setOpen(!open);
-    console.log(open);
+    // console.log(open);
     
 }
   return (
