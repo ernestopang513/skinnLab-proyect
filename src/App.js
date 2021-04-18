@@ -23,7 +23,6 @@ const App = () => {
 }
   return (
     <Router>
-      {/* <Wrapper > */}
         <Header
           open = {open}
           handleMenu = {handleMenu}  
@@ -32,7 +31,6 @@ const App = () => {
           open = {open}
           handleMenu = {handleMenu}
         />
-      {/* </Wrapper> */}
       <Switch>
         <Route
           exact

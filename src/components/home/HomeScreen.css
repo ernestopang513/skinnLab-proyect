@@ -2,4 +2,11 @@ main h1{
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main p{
+  text-align: center;
+  color: #ccc;
 }
