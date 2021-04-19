@@ -19,8 +19,8 @@ const App = () => {
   const handleMenu = () => {
     setOpen(!open);
     // console.log(open);
-    
-}
+  }
+  
   return (
     <Router>
         <Header

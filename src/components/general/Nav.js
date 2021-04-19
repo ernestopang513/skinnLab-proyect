@@ -47,6 +47,11 @@ const NavStylish = styled.nav`
 // `;
 
 export const Nav = ({open,handleMenu}) => {
+
+    const customHandle = () => {
+        handleMenu();
+        window.fbAsyncInit();
+    }
     return (
         <>
             <NavStylish 
@@ -66,7 +71,7 @@ export const Nav = ({open,handleMenu}) => {
                     <li>
                         <Link
                             to = '/aboutUs'
-                            onClick = {handleMenu}
+                            onClick = {customHandle}
                         >
                         Sobre nosotros
                         </Link>

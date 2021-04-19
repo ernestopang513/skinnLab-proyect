@@ -1,17 +1,7 @@
-import React, { useEffect } from 'react'
-import { useLocation } from 'react-router'
+import React from 'react';
 import { Wrapper } from '../../stylish__src/stylish__src'
 
 export const AboutUs = () => {
-
-    const location = useLocation();
-    console.log(location.pathname)
-    console.log(location.hash)
-
-    // useEffect(() => {
-    //     window.location.reload()
-
-    //   }, [location.pathname]);
     return (
         <div>
             <h1>
