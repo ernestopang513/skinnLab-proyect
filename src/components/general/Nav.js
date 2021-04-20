@@ -50,7 +50,7 @@ export const Nav = ({open,handleMenu}) => {
 
     const customHandle = () => {
         handleMenu();
-        window.fbAsyncInit();
+        // window.fbAsyncInit();
     }
     return (
         <>
@@ -72,6 +72,14 @@ export const Nav = ({open,handleMenu}) => {
                         <Link
                             to = '/aboutUs'
                             onClick = {customHandle}
+                        >
+                        Sobre nosotros
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to = '/'
+                            
                         >
                         Sobre nosotros
                         </Link>
