@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/skinnLab-proyect/static/css/main.300d1fa5.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.05362f64.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.05362f64.chunk.js.map",
+    "main.js": "/skinnLab-proyect/static/js/main.2b5a1118.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.2b5a1118.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
-    "static/js/2.14b9e6a8.chunk.js": "/skinnLab-proyect/static/js/2.14b9e6a8.chunk.js",
-    "static/js/2.14b9e6a8.chunk.js.map": "/skinnLab-proyect/static/js/2.14b9e6a8.chunk.js.map",
+    "static/js/2.7c1f4665.chunk.js": "/skinnLab-proyect/static/js/2.7c1f4665.chunk.js",
+    "static/js/2.7c1f4665.chunk.js.map": "/skinnLab-proyect/static/js/2.7c1f4665.chunk.js.map",
     "index.html": "/skinnLab-proyect/index.html",
     "static/css/main.300d1fa5.chunk.css.map": "/skinnLab-proyect/static/css/main.300d1fa5.chunk.css.map",
-    "static/js/2.14b9e6a8.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.14b9e6a8.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/skinnLab-proyect/static/media/1.cf122238.jpg",
-    "static/media/2.jpg": "/skinnLab-proyect/static/media/2.303eb412.jpg",
-    "static/media/3.jpg": "/skinnLab-proyect/static/media/3.4be0b27e.jpg",
-    "static/media/4.jpg": "/skinnLab-proyect/static/media/4.316e903f.jpg",
-    "static/media/5.jpg": "/skinnLab-proyect/static/media/5.e4086d24.jpg",
+    "static/js/2.7c1f4665.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.7c1f4665.chunk.js.LICENSE.txt",
+    "static/media/1.cf122238.jpg": "/skinnLab-proyect/static/media/1.cf122238.jpg",
+    "static/media/2.303eb412.jpg": "/skinnLab-proyect/static/media/2.303eb412.jpg",
+    "static/media/3.4be0b27e.jpg": "/skinnLab-proyect/static/media/3.4be0b27e.jpg",
+    "static/media/4.316e903f.jpg": "/skinnLab-proyect/static/media/4.316e903f.jpg",
+    "static/media/5.e4086d24.jpg": "/skinnLab-proyect/static/media/5.e4086d24.jpg",
     "static/media/skinlab-baner.21bda431.png": "/skinnLab-proyect/static/media/skinlab-baner.21bda431.png"
   },
   "entrypoints": [
     "static/js/runtime-main.90bb410c.js",
-    "static/js/2.14b9e6a8.chunk.js",
+    "static/js/2.7c1f4665.chunk.js",
     "static/css/main.300d1fa5.chunk.css",
-    "static/js/main.05362f64.chunk.js"
+    "static/js/main.2b5a1118.chunk.js"
   ]
 }
