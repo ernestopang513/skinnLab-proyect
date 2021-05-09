@@ -11,9 +11,6 @@ import { Footer } from "./components/general/Footer";
 import { Header } from "./components/general/Header";
 import { Nav } from "./components/general/Nav";
 import { HomeScreen } from './components/home/HomeScreen';
-const DIV = styled.div`
-    margin-top: 1000px;
-`;
 const App = () => {
   const [open, setOpen] = useState(false);
   const handleMenu = () => {
