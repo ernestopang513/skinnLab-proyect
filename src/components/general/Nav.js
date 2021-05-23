@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import styled from 'styled-components';
 
 const NavStylish = styled.nav`
-    transform: ${({open}) => open ? 'translateX(0);' : 'translateX(-200%);'}
+    transform: ${({open}) => open ? 'translateX(0);' : 'translateX(-200%);'};
     transition: all 0.5s ease;
     background-color: white;
     position: absolute;
@@ -22,7 +22,7 @@ const NavStylish = styled.nav`
         display: block;
         padding: 20px 0 20px 5px;
         text-decoration: none;
-        font-weigth: bold;
+        /* font-weigth: bold; */
         font-size: 30px;
     }
     width: 70%;

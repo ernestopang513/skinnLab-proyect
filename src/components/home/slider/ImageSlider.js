@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 import { dataSlider } from './dataSlider';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft  } from 'react-icons/fa';
-
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const Imagenes = styled.section`
 
@@ -12,12 +11,16 @@ height: 400px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top:-100px;
+margin: 0 auto;
+margin-top:10px;
+
 
 
 .image {
     // border-radius: 20px;
-    width: 100%;
+    /* width: 100%; */
+    max-height: 300px;
+    user-select: none;
 }
 
 .right-arrow{
@@ -38,8 +41,14 @@ margin-top:-100px;
     color:#fff;
     z-index:10;
     cursor:pointer;
+    user-select:none;
+
 }
 
+@media (min-width: 768px){
+    width: 50%;
+
+}
 `;
 
 export const ImageSlider = () => {
@@ -57,11 +66,11 @@ export const ImageSlider = () => {
     console.log(current);
     return (
         <Imagenes className ='slidder'>
-            <FaArrowAltCircleLeft 
+            <AiOutlineLeft 
                 className ='left-arrow'
                 onClick = {prevSlide}  
             />
-            <FaArrowAltCircleRight 
+            <AiOutlineRight 
                 className ='right-arrow' 
                 onClick = {nextSlide}
             />
@@ -74,7 +83,7 @@ export const ImageSlider = () => {
                         >
 
                             {index === current &&(
-                                <img  src={slider.image} alt = 'travelin'  className = 'image'/>
+                                <img  src={slider.image} alt = 'tatoo'  className = 'image'/>
                             )}
 
                         </div>
