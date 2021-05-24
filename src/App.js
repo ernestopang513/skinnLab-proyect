@@ -10,6 +10,7 @@ import { AboutUs } from './components/aboutUs/AboutUs';
 import { Footer } from "./components/general/Footer";
 import { Header } from "./components/general/Header";
 import { Nav } from "./components/general/Nav";
+import { ArtistPage } from "./components/home/artistasPage/ArtistPage";
 import { HomeScreen } from './components/home/HomeScreen';
 const App = () => {
   const [open, setOpen] = useState(false);
@@ -38,6 +39,11 @@ const App = () => {
           exact
           path = '/aboutUs'
           component = {AboutUs}
+        />
+        <Route
+          exact
+          path = '/artist'
+          component = {ArtistPage}
         />
         <Redirect to = '/' />
       </Switch>

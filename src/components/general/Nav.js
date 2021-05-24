@@ -78,10 +78,10 @@ export const Nav = ({open,handleMenu}) => {
                     </li>
                     <li>
                         <Link
-                            to = '/'
-                            
+                            to = '/artist'
+                            onClick = {handleMenu}
                         >
-                        Sobre nosotros
+                        Artistas
                         </Link>
                     </li>
                 </ul>
