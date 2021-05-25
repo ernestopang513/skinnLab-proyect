@@ -4,11 +4,17 @@ import { Wrapper } from '../../stylish__src/stylish__src'
 import './HomeScreen.css';
 import { ImageSlider } from './slider/ImageSlider';
 import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
+import logoCircular from '../../imagenes/logoCircular.png'
+// import fondo from '';
+
 
 const SocialMediaIcon = styled.a`
     color: white;
     font-size: 30px;
     :first-child{
+        margin-right: 20px;
+    }
+    :nth-child(2){
         margin-right: 20px;
     }
 `;
@@ -18,6 +24,14 @@ const SocialMedia = styled.div`
     justify-content: center;
 
 `;
+const LogoImg = styled.img`
+    margin: 0 auto;
+    width: 60%;
+    align-self: center;
+`;
+// const DivFondo = styled.div`
+//     background: url(${fondo});
+// `;
 
 
 export const HomeScreen = () => {
@@ -31,15 +45,23 @@ export const HomeScreen = () => {
                     <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></SocialMediaIcon>
                     
                     <SocialMediaIcon target = '_blank' href = 'https://www.facebook.com/skinlabtatuajesyperforaciones'><FaFacebookSquare/></SocialMediaIcon>
-                    </SocialMedia>
-                    
 
+                    <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></SocialMediaIcon>
+                    </SocialMedia>
+                    <div style = {{display: 'flex'}}>
+                        <LogoImg src = {logoCircular}/>
+                    </div>
 
                     <p style = {{marginTop: '30px'}}>
                         Algunos de nuestros trabajos.
                     </p>
+                    {/* <DivFrame>
+                        <iframe  src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
+                        </iframe>
 
-                    {/* <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fskinlabtatuajesyperforaciones%2Fvideos%2F744816142884556%2F&show_text=false&width=560" width={350} height={314} style={{border: 'none', overflow: 'hidden',marginTop: '20px'}} scrolling="no" frameBorder={0} allowFullScreen={false} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" />     */}
+                    </DivFrame> */}
+
+                    
 
                     <ImageSlider/>
                 </main>
