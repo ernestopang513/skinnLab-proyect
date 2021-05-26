@@ -1,6 +1,6 @@
 main h1{
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9,4 +9,6 @@ main h1{
 main p{
   text-align: center;
   color: #ccc;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
 }

@@ -6,11 +6,14 @@ import { ImageSlider } from './slider/ImageSlider';
 import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
 import logoCircular from '../../imagenes/logoCircular.png'
 // import fondo from '';
+import maquina from '../../imagenes/tattooMachine.svg';
+import maquina2 from '../../imagenes/maquina.png';
+
 
 
 const SocialMediaIcon = styled.a`
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     :first-child{
         margin-right: 20px;
     }
@@ -22,12 +25,25 @@ const SocialMedia = styled.div`
 
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 
 `;
 const LogoImg = styled.img`
     margin: 0 auto;
     width: 60%;
     align-self: center;
+`;
+
+const MaquinaLogo = styled.img`
+    margin: 0 auto;
+    width: 60%;
+`;
+
+const Pframe = styled.p`
+
+    margin-top: 40px;
+    text-align: center;
+
 `;
 // const DivFondo = styled.div`
 //     background: url(${fondo});
@@ -39,8 +55,11 @@ export const HomeScreen = () => {
         <div>
             <Wrapper>
                 <main>
-                    <h1>Tatto y Body Piercing.</h1>
+                    <h1>El mejor estudio.</h1>
 
+                    <div style = {{display: 'flex'}}>
+                        <LogoImg alt = 'logoSkinLab' src = {logoCircular}/>
+                    </div>
                     <SocialMedia>
                     <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></SocialMediaIcon>
                     
@@ -48,20 +67,18 @@ export const HomeScreen = () => {
 
                     <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></SocialMediaIcon>
                     </SocialMedia>
-                    <div style = {{display: 'flex'}}>
-                        <LogoImg src = {logoCircular}/>
-                    </div>
 
                     <p style = {{marginTop: '30px'}}>
-                        Algunos de nuestros trabajos.
+                        Tatuajes y perforaciones.
                     </p>
-                    {/* <DivFrame>
-                        <iframe  src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
-                        </iframe>
 
-                    </DivFrame> */}
-
-                    
+                    <div style = {{display: 'flex',marginTop: '20px'}}>
+                        <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
+                    </div>
+                    <Pframe>
+                        <iframe  loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
+                        </iframe>    
+                    </Pframe>
 
                     <ImageSlider/>
                 </main>
