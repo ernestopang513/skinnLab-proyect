@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skinnLab-proyect/static/css/main.51d029d2.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.260b69e5.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.260b69e5.chunk.js.map",
+    "main.js": "/skinnLab-proyect/static/js/main.424c3bc2.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.424c3bc2.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
     "static/js/2.3bbcef77.chunk.js": "/skinnLab-proyect/static/js/2.3bbcef77.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.3bbcef77.chunk.js",
     "static/css/main.51d029d2.chunk.css",
-    "static/js/main.260b69e5.chunk.js"
+    "static/js/main.424c3bc2.chunk.js"
   ]
 }
