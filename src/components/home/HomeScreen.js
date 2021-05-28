@@ -6,7 +6,12 @@ import { ImageSlider } from './slider/ImageSlider';
 import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
 import logoCircular from '../../imagenes/logoCircular.png'
 import maquina from '../../imagenes/tattooMachine.svg';
+import anchor from '../../imagenes/anchor.svg';
+import triangulos from '../../imagenes/triangulos.svg';
 import maquina2 from '../../imagenes/maquina.png';
+import { dataSlider } from './slider/dataSlider';
+import { dataSliderperfos } from './slider/perfosData';
+
 
 
 
@@ -36,6 +41,10 @@ const LogoImg = styled.img`
 const MaquinaLogo = styled.img`
     margin: 0 auto;
     width: 60%;
+`;
+const AnchorLogo = styled.img`
+    margin: 0 auto;
+    width: 30%;
 `;
 
 const Pframe = styled.p`
@@ -93,13 +102,28 @@ export const HomeScreen = () => {
             </Wrapper>
                 <div className = 'fondo'>
                     <GlassCard>
-                        <ImageSlider/>
+                        <ImageSlider dataSlider = {dataSlider}/>
                     </GlassCard>
                 </div>
             <Wrapper>
-                <p>Embedded post</p>
-                <p>Embedded post</p>
+                <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
+                <div style = {{display: 'flex',marginTop: '20px'}}>
+                    <AnchorLogo alt = 'logoAnchor' src = {anchor}/>
+                </div>
             </Wrapper>
+                <div className = 'fondo2'>
+                    <GlassCard>
+                        <ImageSlider dataSlider = {dataSliderperfos}/>
+                    </GlassCard>
+                </div>
+            <Wrapper>
+                <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
+                <div style = {{display: 'flex',marginTop: '20px'}}>
+                    <AnchorLogo alt = 'logoAnchor' src = {triangulos}/>
+                </div>
+            </Wrapper>
+
+
         </div>
     )
 }

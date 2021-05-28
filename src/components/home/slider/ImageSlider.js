@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { dataSlider } from './dataSlider';
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const Imagenes = styled.section`
@@ -51,7 +50,7 @@ margin: 0 auto;
 }
 `;
 
-export const ImageSlider = () => {
+export const ImageSlider = ({dataSlider}) => {
     const [current, setCurrent] = useState(0);
     const length = dataSlider.length;
 
