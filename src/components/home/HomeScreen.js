@@ -5,7 +5,6 @@ import './HomeScreen.css';
 import { ImageSlider } from './slider/ImageSlider';
 import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
 import logoCircular from '../../imagenes/logoCircular.png'
-// import fondo from '';
 import maquina from '../../imagenes/tattooMachine.svg';
 import maquina2 from '../../imagenes/maquina.png';
 
@@ -43,11 +42,21 @@ const Pframe = styled.p`
 
     margin-top: 40px;
     text-align: center;
+    
 
 `;
-// const DivFondo = styled.div`
-//     background: url(${fondo});
-// `;
+const GlassCard = styled.div`
+    margin: auto;
+    background: rgba(255,255,255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1 );
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255, .5);
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
 
 
 export const HomeScreen = () => {
@@ -76,13 +85,17 @@ export const HomeScreen = () => {
                         <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
                     </div>
                     <Pframe>
-                        <iframe  loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
+                        <iframe className = 'ytFrame' loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
                         </iframe>    
                     </Pframe>
 
-                    <ImageSlider/>
                 </main>
             </Wrapper>
+                <div className = 'fondo'>
+                    <GlassCard>
+                        <ImageSlider/>
+                    </GlassCard>
+                </div>
             <Wrapper>
                 <p>Embedded post</p>
                 <p>Embedded post</p>
