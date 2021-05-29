@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skinnLab-proyect/static/css/main.a1abb52f.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.5dc9c765.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.5dc9c765.chunk.js.map",
+    "main.js": "/skinnLab-proyect/static/js/main.6f6cbd36.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.6f6cbd36.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
     "static/js/2.e02107a9.chunk.js": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js",
@@ -11,15 +11,15 @@
     "static/css/main.a1abb52f.chunk.css.map": "/skinnLab-proyect/static/css/main.a1abb52f.chunk.css.map",
     "static/js/2.e02107a9.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js.LICENSE.txt",
     "static/media/1.15224d08.png": "/skinnLab-proyect/static/media/1.15224d08.png",
-    "static/media/1.614e01e5.jpg": "/skinnLab-proyect/static/media/1.614e01e5.jpg",
-    "static/media/2.092fab9d.jpg": "/skinnLab-proyect/static/media/2.092fab9d.jpg",
+    "static/media/1.1973149b.png": "/skinnLab-proyect/static/media/1.1973149b.png",
     "static/media/2.78b85dbe.png": "/skinnLab-proyect/static/media/2.78b85dbe.png",
+    "static/media/2.bb543141.png": "/skinnLab-proyect/static/media/2.bb543141.png",
     "static/media/3.43f509e9.png": "/skinnLab-proyect/static/media/3.43f509e9.png",
-    "static/media/3.7c32d9e1.jpg": "/skinnLab-proyect/static/media/3.7c32d9e1.jpg",
+    "static/media/3.61a3b446.png": "/skinnLab-proyect/static/media/3.61a3b446.png",
     "static/media/4.15c00dbd.png": "/skinnLab-proyect/static/media/4.15c00dbd.png",
-    "static/media/4.e2228435.jpg": "/skinnLab-proyect/static/media/4.e2228435.jpg",
-    "static/media/5.3c7d932b.jpg": "/skinnLab-proyect/static/media/5.3c7d932b.jpg",
+    "static/media/4.d420f299.png": "/skinnLab-proyect/static/media/4.d420f299.png",
     "static/media/5.4aeaa3e0.png": "/skinnLab-proyect/static/media/5.4aeaa3e0.png",
+    "static/media/5.93274feb.png": "/skinnLab-proyect/static/media/5.93274feb.png",
     "static/media/anchor.4fd3387e.svg": "/skinnLab-proyect/static/media/anchor.4fd3387e.svg",
     "static/media/HomeScreen.css": "/skinnLab-proyect/static/media/ladrillosNegros.2a1f6e0e.png",
     "static/media/logoCircular.9798d772.png": "/skinnLab-proyect/static/media/logoCircular.9798d772.png",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.e02107a9.chunk.js",
     "static/css/main.a1abb52f.chunk.css",
-    "static/js/main.5dc9c765.chunk.js"
+    "static/js/main.6f6cbd36.chunk.js"
   ]
 }
