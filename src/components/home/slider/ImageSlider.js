@@ -4,13 +4,14 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const Imagenes = styled.section`
 
-position: relative;
-
+/* position: relative; */
+width: 400px;
 height: 400px;
 display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
+position: relative;
 /* margin-top:10px; */
 
 

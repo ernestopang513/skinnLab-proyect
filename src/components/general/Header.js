@@ -22,6 +22,10 @@ const HeaderStyled = styled.header`
     img{
         width: 100%;
         // height: 10%;
+        @media(min-width: 768px){
+            width: 50%;
+            
+        }
     }
 
     .box{

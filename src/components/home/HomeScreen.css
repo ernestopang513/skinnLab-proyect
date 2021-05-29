@@ -20,7 +20,7 @@ main p{
 }
 
 .fondo{
-  background-image: url(../../imagenes/fondo.jpg);
+  background-image: url(../../imagenes/fondo.png);
   background-size: cover;
   margin: 50px 0 30px 0;
   width: 100%;
@@ -31,7 +31,7 @@ main p{
   /* position: relative; */
 }
 .fondo2{
-  background-image: url(../../imagenes/ladrillosNegros.jpg);
+  background-image: url(../../imagenes/ladrillosNegros.png);
   background-size: cover;
   margin: 50px 0 30px 0;
   width: 100%;

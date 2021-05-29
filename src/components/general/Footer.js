@@ -10,12 +10,15 @@ const STCFooter = styled.footer`
     text-align:center;
     margin-top:40px;
 
+    p{
+        color: black;
+    }
+
 `;
 export const Footer = () => {
     return (
         <STCFooter>
             <p>Skinlab footer</p>
-            <p>Aqui quiero poner un mapa </p>
         </STCFooter>
     )
 }

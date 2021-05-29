@@ -35,7 +35,13 @@ const SocialMedia = styled.div`
 const LogoImg = styled.img`
     margin: 0 auto;
     width: 60%;
-    align-self: center;
+    display: block;
+    /* align-self: center; */
+
+    @media(min-width: 768px){
+        width: 70%;
+        margin: 0;
+    }
 `;
 
 const MaquinaLogo = styled.img`
@@ -67,6 +73,20 @@ const GlassCard = styled.div`
     align-items: center;
 `;
 
+const WrapperFlexContainer = styled.div`
+
+    margin-top: 50px;
+ .HomeScreenFlex{
+     flex-basis: 50%;
+ }
+
+@media (min-width: 768px){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+`;
+
 
 export const HomeScreen = () => {
     return (
@@ -74,10 +94,15 @@ export const HomeScreen = () => {
             <Wrapper>
                 <main>
                     <h1>El mejor estudio.</h1>
+                    <WrapperFlexContainer>
 
-                    <div style = {{display: 'flex'}}>
+                    <div className = 'HomeScreenFlex'>
+
+                    {/* <div style = {{display: 'flex'}}> */}
                         <LogoImg alt = 'logoSkinLab' src = {logoCircular}/>
+                    {/* </div> */}
                     </div>
+                    <div>
                     <SocialMedia>
                     <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></SocialMediaIcon>
                     
@@ -89,10 +114,13 @@ export const HomeScreen = () => {
                     <p style = {{marginTop: '30px'}}>
                         Tatuajes y perforaciones.
                     </p>
+                    </div>
+                    </WrapperFlexContainer>
 
                     <div style = {{display: 'flex',marginTop: '20px'}}>
                         <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
                     </div>
+
                     <Pframe>
                         <iframe className = 'ytFrame' loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
                         </iframe>    
