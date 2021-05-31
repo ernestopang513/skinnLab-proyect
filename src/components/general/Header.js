@@ -18,6 +18,9 @@ const HeaderStyled = styled.header`
 
     a{
         width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     img{
         width: 100%;

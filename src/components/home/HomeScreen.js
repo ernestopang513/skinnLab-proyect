@@ -47,6 +47,10 @@ const LogoImg = styled.img`
 const MaquinaLogo = styled.img`
     margin: 0 auto;
     width: 60%;
+
+    @media(min-width: 768px){
+        width: 50%;
+    }
 `;
 const AnchorLogo = styled.img`
     margin: 0 auto;
@@ -57,6 +61,12 @@ const Pframe = styled.p`
 
     margin-top: 40px;
     text-align: center;
+
+    display: block;
+
+    @media(min-width: 768px){
+        margin-top: 0;
+    }
     
 
 `;
@@ -79,6 +89,11 @@ const WrapperFlexContainer = styled.div`
  .HomeScreenFlex{
      flex-basis: 50%;
  }
+    .flexBasis{
+        flex-basis: 50%;
+        display: flex;
+
+    }
 
 @media (min-width: 768px){
     display: flex;
@@ -96,49 +111,52 @@ export const HomeScreen = () => {
                     <h1>El mejor estudio.</h1>
                     <WrapperFlexContainer>
 
-                    <div className = 'HomeScreenFlex'>
+                        <div className = 'HomeScreenFlex'>
 
-                    {/* <div style = {{display: 'flex'}}> */}
-                        <LogoImg alt = 'logoSkinLab' src = {logoCircular}/>
-                    {/* </div> */}
-                    </div>
-                    <div>
-                    <SocialMedia>
-                    <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></SocialMediaIcon>
-                    
-                    <SocialMediaIcon target = '_blank' href = 'https://www.facebook.com/skinlabtatuajesyperforaciones'><FaFacebookSquare/></SocialMediaIcon>
+                        {/* <div style = {{display: 'flex'}}> */}
+                            <LogoImg alt = 'logoSkinLab' src = {logoCircular}/>
+                        {/* </div> */}
+                        </div>
+                        <div>
+                            <SocialMedia>
+                                <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></SocialMediaIcon>
+                                
+                                <SocialMediaIcon target = '_blank' href = 'https://www.facebook.com/skinlabtatuajesyperforaciones'><FaFacebookSquare/></SocialMediaIcon>
 
-                    <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></SocialMediaIcon>
-                    </SocialMedia>
+                                <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></SocialMediaIcon>
+                            </SocialMedia>
 
-                    <p style = {{marginTop: '30px'}}>
-                        Tatuajes y perforaciones.
-                    </p>
-                    </div>
+                            <p style = {{marginTop: '30px'}}>
+                                Tatuajes y perforaciones.
+                            </p>
+                        </div>
                     </WrapperFlexContainer>
-
-                    <div style = {{display: 'flex',marginTop: '20px'}}>
-                        <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
-                    </div>
-
-                    <Pframe>
-                        <iframe className = 'ytFrame' loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
-                        </iframe>    
-                    </Pframe>
-
+                    <WrapperFlexContainer>
+                        <div className = 'flexBasis' >
+                            <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
+                        </div>
+                        <Pframe>
+                            <iframe className = 'ytFrame' loading = 'lazy' src="https://www.youtube.com/embed/JZjQDYaKqOg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen = {true}>
+                            </iframe>    
+                        </Pframe>
+                        
+                    </WrapperFlexContainer>
                 </main>
             </Wrapper>
+            <div className = 'sliceFlex'>
                 <div className = 'fondo'>
                     <GlassCard>
                         <ImageSlider dataSlider = {dataSlider}/>
                     </GlassCard>
                 </div>
-            <Wrapper>
+                <div>
+
                 <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
                 <div style = {{display: 'flex',marginTop: '20px'}}>
                     <AnchorLogo alt = 'logoAnchor' src = {anchor}/>
                 </div>
-            </Wrapper>
+                </div>
+            </div>
                 <div className = 'fondo2'>
                     <GlassCard>
                         <ImageSlider dataSlider = {dataSliderperfos}/>
@@ -150,8 +168,6 @@ export const HomeScreen = () => {
                     <AnchorLogo alt = 'logoAnchor' src = {triangulos}/>
                 </div>
             </Wrapper>
-
-
         </div>
     )
 }
