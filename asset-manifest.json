@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/skinnLab-proyect/static/css/main.3154ac52.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.a3168e73.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.a3168e73.chunk.js.map",
+    "main.css": "/skinnLab-proyect/static/css/main.383813f9.chunk.css",
+    "main.js": "/skinnLab-proyect/static/js/main.e4f8be50.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.e4f8be50.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
     "static/js/2.e02107a9.chunk.js": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js",
     "static/js/2.e02107a9.chunk.js.map": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js.map",
     "index.html": "/skinnLab-proyect/index.html",
-    "static/css/main.3154ac52.chunk.css.map": "/skinnLab-proyect/static/css/main.3154ac52.chunk.css.map",
+    "static/css/main.383813f9.chunk.css.map": "/skinnLab-proyect/static/css/main.383813f9.chunk.css.map",
     "static/js/2.e02107a9.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js.LICENSE.txt",
     "static/media/1.15224d08.png": "/skinnLab-proyect/static/media/1.15224d08.png",
     "static/media/1.1973149b.png": "/skinnLab-proyect/static/media/1.1973149b.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.e02107a9.chunk.js",
-    "static/css/main.3154ac52.chunk.css",
-    "static/js/main.a3168e73.chunk.js"
+    "static/css/main.383813f9.chunk.css",
+    "static/js/main.e4f8be50.chunk.js"
   ]
 }
