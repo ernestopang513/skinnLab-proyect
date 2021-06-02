@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/skinnLab-proyect/static/css/main.383813f9.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.e4f8be50.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.e4f8be50.chunk.js.map",
+    "main.css": "/skinnLab-proyect/static/css/main.4d37c6c3.chunk.css",
+    "main.js": "/skinnLab-proyect/static/js/main.c4ea96b6.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.c4ea96b6.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
     "static/js/2.e02107a9.chunk.js": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js",
     "static/js/2.e02107a9.chunk.js.map": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js.map",
     "index.html": "/skinnLab-proyect/index.html",
-    "static/css/main.383813f9.chunk.css.map": "/skinnLab-proyect/static/css/main.383813f9.chunk.css.map",
+    "static/css/main.4d37c6c3.chunk.css.map": "/skinnLab-proyect/static/css/main.4d37c6c3.chunk.css.map",
     "static/js/2.e02107a9.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.e02107a9.chunk.js.LICENSE.txt",
     "static/media/1.15224d08.png": "/skinnLab-proyect/static/media/1.15224d08.png",
-    "static/media/1.1973149b.png": "/skinnLab-proyect/static/media/1.1973149b.png",
-    "static/media/2.78b85dbe.png": "/skinnLab-proyect/static/media/2.78b85dbe.png",
-    "static/media/2.bb543141.png": "/skinnLab-proyect/static/media/2.bb543141.png",
-    "static/media/3.43f509e9.png": "/skinnLab-proyect/static/media/3.43f509e9.png",
-    "static/media/3.61a3b446.png": "/skinnLab-proyect/static/media/3.61a3b446.png",
-    "static/media/4.15c00dbd.png": "/skinnLab-proyect/static/media/4.15c00dbd.png",
-    "static/media/4.d420f299.png": "/skinnLab-proyect/static/media/4.d420f299.png",
-    "static/media/5.4aeaa3e0.png": "/skinnLab-proyect/static/media/5.4aeaa3e0.png",
-    "static/media/5.93274feb.png": "/skinnLab-proyect/static/media/5.93274feb.png",
+    "static/media/1.614e01e5.jpg": "/skinnLab-proyect/static/media/1.614e01e5.jpg",
+    "static/media/2.cb31e5ff.jpg": "/skinnLab-proyect/static/media/2.cb31e5ff.jpg",
+    "static/media/2.f9a5ddf2.jpg": "/skinnLab-proyect/static/media/2.f9a5ddf2.jpg",
+    "static/media/3.4be0b27e.jpg": "/skinnLab-proyect/static/media/3.4be0b27e.jpg",
+    "static/media/3.e1cd0407.jpg": "/skinnLab-proyect/static/media/3.e1cd0407.jpg",
+    "static/media/4.316e903f.jpg": "/skinnLab-proyect/static/media/4.316e903f.jpg",
+    "static/media/4.7b8c0568.jpg": "/skinnLab-proyect/static/media/4.7b8c0568.jpg",
+    "static/media/5.37ccf33d.jpg": "/skinnLab-proyect/static/media/5.37ccf33d.jpg",
+    "static/media/5.e4086d24.jpg": "/skinnLab-proyect/static/media/5.e4086d24.jpg",
     "static/media/anchor.4fd3387e.svg": "/skinnLab-proyect/static/media/anchor.4fd3387e.svg",
     "static/media/HomeScreen.css": "/skinnLab-proyect/static/media/ladrillosNegros.2a1f6e0e.png",
     "static/media/logoCircular.9798d772.png": "/skinnLab-proyect/static/media/logoCircular.9798d772.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.e02107a9.chunk.js",
-    "static/css/main.383813f9.chunk.css",
-    "static/js/main.e4f8be50.chunk.js"
+    "static/css/main.4d37c6c3.chunk.css",
+    "static/js/main.c4ea96b6.chunk.js"
   ]
 }
