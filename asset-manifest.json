@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skinnLab-proyect/static/css/main.26398695.chunk.css",
+    "main.css": "/skinnLab-proyect/static/css/main.c187a2fd.chunk.css",
     "main.js": "/skinnLab-proyect/static/js/main.3f0ec124.chunk.js",
     "main.js.map": "/skinnLab-proyect/static/js/main.3f0ec124.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
@@ -8,7 +8,7 @@
     "static/js/2.41c30962.chunk.js": "/skinnLab-proyect/static/js/2.41c30962.chunk.js",
     "static/js/2.41c30962.chunk.js.map": "/skinnLab-proyect/static/js/2.41c30962.chunk.js.map",
     "index.html": "/skinnLab-proyect/index.html",
-    "static/css/main.26398695.chunk.css.map": "/skinnLab-proyect/static/css/main.26398695.chunk.css.map",
+    "static/css/main.c187a2fd.chunk.css.map": "/skinnLab-proyect/static/css/main.c187a2fd.chunk.css.map",
     "static/js/2.41c30962.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.41c30962.chunk.js.LICENSE.txt",
     "static/media/1.15224d08.png": "/skinnLab-proyect/static/media/1.15224d08.png",
     "static/media/1.614e01e5.jpg": "/skinnLab-proyect/static/media/1.614e01e5.jpg",
@@ -25,14 +25,14 @@
     "static/media/logoCircular.9798d772.png": "/skinnLab-proyect/static/media/logoCircular.9798d772.png",
     "static/media/maquina.62717926.png": "/skinnLab-proyect/static/media/maquina.62717926.png",
     "static/media/skinlab-baner.21bda431.png": "/skinnLab-proyect/static/media/skinlab-baner.21bda431.png",
-    "static/media/AboutUs.css": "/skinnLab-proyect/static/media/tattooAboutUs.185883d0.png",
+    "static/media/AboutUs.css": "/skinnLab-proyect/static/media/tattooAboutUs(1).299da2d9.jpg",
     "static/media/tattooMachine.903dca3c.svg": "/skinnLab-proyect/static/media/tattooMachine.903dca3c.svg",
     "static/media/triangulos.1d272f99.svg": "/skinnLab-proyect/static/media/triangulos.1d272f99.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.41c30962.chunk.js",
-    "static/css/main.26398695.chunk.css",
+    "static/css/main.c187a2fd.chunk.css",
     "static/js/main.3f0ec124.chunk.js"
   ]
 }
