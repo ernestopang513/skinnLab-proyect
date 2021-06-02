@@ -32,6 +32,7 @@ position: relative;
     z-index:10;
     cursor:pointer;
     user-select:none;
+    
 }
 .left-arrow{
     position: absolute;
@@ -45,10 +46,7 @@ position: relative;
 
 }
 
-@media (min-width: 768px){
-    width: 50%;
 
-}
 `;
 
 export const ImageSlider = ({dataSlider}) => {

@@ -1,8 +1,8 @@
-import img1 from '../../../perfosImg/1.png'
-import img2 from '../../../perfosImg/2.png'
-import img3 from '../../../perfosImg/3.png'
-import img4 from '../../../perfosImg/4.png'
-import img5 from '../../../perfosImg/5.png'
+import img1 from '../../../perfosImg/1.jpg'
+import img2 from '../../../perfosImg/2.jpg'
+import img3 from '../../../perfosImg/3.jpg'
+import img4 from '../../../perfosImg/4.jpg'
+import img5 from '../../../perfosImg/5.jpg'
 
 
 export const dataSliderperfos = [

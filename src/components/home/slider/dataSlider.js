@@ -1,8 +1,8 @@
 import img1 from '../../../imgSkinlab/1.png'
-import img2 from '../../../imgSkinlab/2.png'
-import img3 from '../../../imgSkinlab/3.png'
-import img4 from '../../../imgSkinlab/4.png'
-import img5 from '../../../imgSkinlab/5.png'
+import img2 from '../../../imgSkinlab/2.jpg'
+import img3 from '../../../imgSkinlab/3.jpg'
+import img4 from '../../../imgSkinlab/4.jpg'
+import img5 from '../../../imgSkinlab/5.jpg'
 
 
 export const dataSlider = [

@@ -1,0 +1,10 @@
+
+
+.aboutUs__fondo{
+    background-image: url(../../imagenes/tattooAboutUs.png);
+    width: 100vw;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 30px;
+}

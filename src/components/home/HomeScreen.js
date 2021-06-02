@@ -49,7 +49,7 @@ const MaquinaLogo = styled.img`
     width: 60%;
 
     @media(min-width: 768px){
-        width: 50%;
+        width: 70%;
     }
 `;
 const AnchorLogo = styled.img`
@@ -143,31 +143,34 @@ export const HomeScreen = () => {
                     </WrapperFlexContainer>
                 </main>
             </Wrapper>
-            <div className = 'sliceFlex'>
+            <div className = 'sliceFlex sliceFlexFondo1'>
                 <div className = 'fondo'>
                     <GlassCard>
                         <ImageSlider dataSlider = {dataSlider}/>
                     </GlassCard>
                 </div>
-                <div>
-
-                <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
-                <div style = {{display: 'flex',marginTop: '20px'}}>
-                    <AnchorLogo alt = 'logoAnchor' src = {anchor}/>
-                </div>
+                    <div className = 'flexBasis'>
+                        <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
+                        <div style = {{display: 'flex',marginTop: '20px'}}>
+                            <AnchorLogo alt = 'logoAnchor' src = {anchor}/>
+                        </div>
                 </div>
             </div>
+            <div className = 'sliceFlex sliceFlexFondo2'>
+
                 <div className = 'fondo2'>
                     <GlassCard>
                         <ImageSlider dataSlider = {dataSliderperfos}/>
                     </GlassCard>
                 </div>
-            <Wrapper>
-                <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
-                <div style = {{display: 'flex',marginTop: '20px'}}>
-                    <AnchorLogo alt = 'logoAnchor' src = {triangulos}/>
+                <div className = 'flexBasis'>
+                    <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
+                    <div style = {{display: 'flex',marginTop: '20px'}}>
+                        <AnchorLogo alt = 'logoAnchor' src = {triangulos}/>
+                    </div>
                 </div>
-            </Wrapper>
+            
+            </div>
         </div>
     )
 }
