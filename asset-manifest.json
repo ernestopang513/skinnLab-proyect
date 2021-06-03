@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skinnLab-proyect/static/css/main.c187a2fd.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.3f0ec124.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.3f0ec124.chunk.js.map",
+    "main.js": "/skinnLab-proyect/static/js/main.38202814.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.38202814.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
-    "static/js/2.41c30962.chunk.js": "/skinnLab-proyect/static/js/2.41c30962.chunk.js",
-    "static/js/2.41c30962.chunk.js.map": "/skinnLab-proyect/static/js/2.41c30962.chunk.js.map",
+    "static/js/2.2afaa027.chunk.js": "/skinnLab-proyect/static/js/2.2afaa027.chunk.js",
+    "static/js/2.2afaa027.chunk.js.map": "/skinnLab-proyect/static/js/2.2afaa027.chunk.js.map",
     "index.html": "/skinnLab-proyect/index.html",
     "static/css/main.c187a2fd.chunk.css.map": "/skinnLab-proyect/static/css/main.c187a2fd.chunk.css.map",
-    "static/js/2.41c30962.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.41c30962.chunk.js.LICENSE.txt",
+    "static/js/2.2afaa027.chunk.js.LICENSE.txt": "/skinnLab-proyect/static/js/2.2afaa027.chunk.js.LICENSE.txt",
     "static/media/1.15224d08.png": "/skinnLab-proyect/static/media/1.15224d08.png",
     "static/media/1.614e01e5.jpg": "/skinnLab-proyect/static/media/1.614e01e5.jpg",
     "static/media/2.cb31e5ff.jpg": "/skinnLab-proyect/static/media/2.cb31e5ff.jpg",
@@ -21,18 +21,22 @@
     "static/media/5.37ccf33d.jpg": "/skinnLab-proyect/static/media/5.37ccf33d.jpg",
     "static/media/5.e4086d24.jpg": "/skinnLab-proyect/static/media/5.e4086d24.jpg",
     "static/media/anchor.4fd3387e.svg": "/skinnLab-proyect/static/media/anchor.4fd3387e.svg",
+    "static/media/corcholata.dd32a207.jpg": "/skinnLab-proyect/static/media/corcholata.dd32a207.jpg",
     "static/media/HomeScreen.css": "/skinnLab-proyect/static/media/ladrillosNegros.2a1f6e0e.png",
     "static/media/logoCircular.9798d772.png": "/skinnLab-proyect/static/media/logoCircular.9798d772.png",
     "static/media/maquina.62717926.png": "/skinnLab-proyect/static/media/maquina.62717926.png",
+    "static/media/patternBackground.b2e5696f.jpg": "/skinnLab-proyect/static/media/patternBackground.b2e5696f.jpg",
+    "static/media/rich.754ab5cf.jpg": "/skinnLab-proyect/static/media/rich.754ab5cf.jpg",
     "static/media/skinlab-baner.21bda431.png": "/skinnLab-proyect/static/media/skinlab-baner.21bda431.png",
     "static/media/AboutUs.css": "/skinnLab-proyect/static/media/tattooAboutUs(1).299da2d9.jpg",
     "static/media/tattooMachine.903dca3c.svg": "/skinnLab-proyect/static/media/tattooMachine.903dca3c.svg",
+    "static/media/tebo.8a15ea19.jpg": "/skinnLab-proyect/static/media/tebo.8a15ea19.jpg",
     "static/media/triangulos.1d272f99.svg": "/skinnLab-proyect/static/media/triangulos.1d272f99.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.90bb410c.js",
-    "static/js/2.41c30962.chunk.js",
+    "static/js/2.2afaa027.chunk.js",
     "static/css/main.c187a2fd.chunk.css",
-    "static/js/main.3f0ec124.chunk.js"
+    "static/js/main.38202814.chunk.js"
   ]
 }
