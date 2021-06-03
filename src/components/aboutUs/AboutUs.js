@@ -4,6 +4,7 @@ import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
 
 import { Wrapper } from '../../stylish__src/stylish__src'
 import './AboutUs.css';
+import cuadrados from '../../imagenes/cuadrados1.svg';
 // import image from '../../imagenes/tattooAboutUs.png'
 
 const AboutUsWrapper = styled.div`
@@ -35,7 +36,9 @@ const AboutUsWrapper = styled.div`
         .socialMediaIcon:nth-child(2){
             margin-right: 20px;
         }
-    
+    .logo{
+        width: 20%;
+    }
 `;
 
 export const AboutUs = () => {
@@ -55,6 +58,8 @@ export const AboutUs = () => {
 
                                     <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></a>
                 </div>
+
+                <img className = 'logo' src = {cuadrados} alt = 'cuadrados'/>
             </div>
 
             <Wrapper>

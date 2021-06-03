@@ -49,7 +49,7 @@ const ArtistPageStyle = styled.div`
         width: 100%;
         height: 100%;
         padding-top: 30px;
-        background-color: rgba(0,0,0, .3);
+        background-color: rgba(0,0,0, .7);
         padding-bottom: 30px;
     }
     .marginTop{
@@ -102,27 +102,27 @@ export const ArtistPage = () => {
                             <img src = {corcholata} alt = 'pepe'/>
                         </div>
                         <div className = 'basisFlex2'>
-                            <a target = '_blank' href = 'https://www.instagram.com/corcholata666/?hl=es-la/media/'><FaInstagram/></a>
+                            <a target = '_blank' href = 'https://www.instagram.com/corcholata666/?hl=es-la'><FaInstagram/></a>
                             <p>Visista mi instagram para ver mas de mi trabajo</p>
                         </div>
                     </div>
                     <div className = 'artistPageFlex2'>
                         <div className = 'basisFlex'>
-                            <p className = 'marginTop'>@Corcholata</p>
+                            <p className = 'marginTop'>@tebotattoomx</p>
                             <img src = {tebo} alt = 'tebo'/>
                         </div>
                         <div className = 'basisFlex2'>
-                            <a target = '_blank' href = 'https://www.instagram.com/corcholata666/?hl=es-la/media/'><FaInstagram/></a>
+                            <a target = '_blank' href = 'https://www.instagram.com/tebotattoomx/?hl=es-la'><FaInstagram/></a>
                             <p>Visista mi instagram para ver mas de mi trabajo</p>
                         </div>
                     </div>
                     <div className = 'artistPageFlex'>
                         <div className = 'basisFlex'>
-                            <p className = 'marginTop'>@Corcholata</p>
+                            <p className = 'marginTop'>@richigarciasandoval</p>
                             <img src = {rich} alt = 'rich'/>
                         </div>
                         <div className = 'basisFlex2'>
-                            <a target = '_blank' href = 'https://www.instagram.com/corcholata666/?hl=es-la/media/'><FaInstagram/></a>
+                            <a target = '_blank' href = 'https://www.instagram.com/richigarciasandoval'><FaInstagram/></a>
                             <p>Visista mi instagram para ver mas de mi trabajo</p>
                         </div>
                     </div>
