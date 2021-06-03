@@ -35,6 +35,10 @@ const NavStylish = styled.nav`
             display: flex;
             justify-content: space-around;
         }
+        li a{
+            font-size: 20px;
+            padding: 15px 0 15px;
+        }
         // li a {
         //     display: inline; 
         // }

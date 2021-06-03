@@ -1,10 +1,21 @@
 
 
 .aboutUs__fondo{
-    background-image: url(../../imagenes/tattooAboutUs.png);
+    background-image: url('../../imagenes/tattooAboutUs(1).jpg');
     width: 100vw;
     background-color: white;
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(min-width: 768px){
+    .aboutUs__fondo{
+        background-position: center center;
+        background-size: fill;
+    }
 }

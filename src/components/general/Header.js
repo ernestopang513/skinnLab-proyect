@@ -52,6 +52,7 @@ const HeaderStyled = styled.header`
     
 
     @media (min-width: 768px ){
+        justify-content: flex-start;
         .menu{
             display: none;
         }
