@@ -37,7 +37,7 @@ const AboutUsWrapper = styled.div`
             margin-right: 20px;
         }
     .logo{
-        width: 20%;
+        height: 20%;
     }
 `;
 

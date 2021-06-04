@@ -8,12 +8,21 @@ import logoCircular from '../../imagenes/logoCircular.png'
 import maquina from '../../imagenes/tattooMachine.svg';
 import anchor from '../../imagenes/anchor.svg';
 import triangulos from '../../imagenes/triangulos.svg';
-import maquina2 from '../../imagenes/maquina.png';
 import { dataSlider } from './slider/dataSlider';
 import { dataSliderperfos } from './slider/perfosData';
+import home from '../../imagenes/tattooMachineBackground.jpg';
 
 
+const BackgroundHome = styled.div`
 
+    background-image: url(${home});
+    background-size: cover;
+    .blur{
+        background-color: rgba(0,0,0,.3);
+        padding-bottom: 30px;
+    }
+    background-position-y: bottom ;
+`;
 
 const SocialMediaIcon = styled.a`
     color: white;
@@ -106,8 +115,12 @@ const WrapperFlexContainer = styled.div`
 export const HomeScreen = () => {
     return (
         <div>
-            <Wrapper>
+            {/* <Wrapper> */}
                 <main>
+                    <BackgroundHome>
+                    <div className = 'blur'>
+
+
                     <h1>El mejor estudio.</h1>
                     <WrapperFlexContainer>
 
@@ -131,6 +144,8 @@ export const HomeScreen = () => {
                             </p>
                         </div>
                     </WrapperFlexContainer>
+                    </div>
+                    </BackgroundHome>
                     <WrapperFlexContainer>
                         <div className = 'flexBasis' >
                             <MaquinaLogo alt = 'logoMagina' src = {maquina}/>
@@ -142,7 +157,7 @@ export const HomeScreen = () => {
                         
                     </WrapperFlexContainer>
                 </main>
-            </Wrapper>
+            {/* </Wrapper> */}
             <div className = 'sliceFlex sliceFlexFondo1'>
                 <div className = 'fondo'>
                     <GlassCard>

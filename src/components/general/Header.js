@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import skinlab from '../../imagenes/skinlab-baner.png';
+import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
+
 
 // En este Header styled estan contenidos el div que contine los div del menú y la funcion que permite
 // que que roten al dar click en ellos tambien estan las reglas de media querie que los diferentes tamaños
@@ -47,18 +49,41 @@ const HeaderStyled = styled.header`
     .box:nth-child(3){
         transform: ${({open}) => open ? 'rotate(-45deg);' : 'rotate(0deg);'}
     }
+    .socialMedia{
+        display: none;
+    }
 
 
     
 
     @media (min-width: 768px ){
-        justify-content: flex-start;
+        justify-content: space-between;
+        align-items: center;
         .menu{
             display: none;
         }
         a{
             width:20%;
         }
+        .socialMedia{
+        display: flex;
+        justify-content: center;
+    }
+    .socialMediaIcon{
+        color: white;
+        font-size: 30px;
+        margin-right: 20px;
+
+    }
+        /* .socialMediaIcon:first-child{
+            margin-right: 20px;
+        }
+        .socialMediaIcon:nth-child(2){
+            margin-right: 20px;
+        } */
+    .logo{
+        width: 20%;
+    }
     }
 `;
 export const Header = ({open, handleMenu}) => {
@@ -80,6 +105,13 @@ export const Header = ({open, handleMenu}) => {
                     <div className = 'box box1' ></div>
                     <div className = 'box'></div>
                     <div className = 'box'></div>
+                </div>
+                <div className = 'socialMedia'>
+                                    <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></a>
+                                    
+                                    <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.facebook.com/skinlabtatuajesyperforaciones'><FaFacebookSquare/></a>
+
+                                    <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></a>
                 </div>
             </HeaderStyled>   
         </>

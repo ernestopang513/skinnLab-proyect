@@ -6,6 +6,9 @@ import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
 import pattern from '../../imagenes/patternBackground.jpg'
 import tebo from '../../imagenes/tebo.jpg'
 import rich from '../../imagenes/rich.jpg'
+import circulos from '../../imagenes/circulos1.svg'
+import flechas from '../../imagenes/flechas.svg'
+import harry from '../../imagenes/harry.svg'
 
 
 
@@ -20,7 +23,7 @@ const ArtistPageStyle = styled.div`
             font-size: 40px;
         }
     }
-    img{
+    .artista{
         width: 50%;
         height: auto;
         display: block;
@@ -56,6 +59,7 @@ const ArtistPageStyle = styled.div`
         margin-top: 10px;
     }
     .artistPageFlex{
+        margin-top: 30px;
         @media (min-width: 768px){
             display: flex;
             justify-content: space-around;
@@ -65,6 +69,7 @@ const ArtistPageStyle = styled.div`
         }
     }
     .artistPageFlex2{
+        margin-top: 30px;
         @media (min-width: 768px){
             display: flex;
             flex-direction: row-reverse;
@@ -85,7 +90,11 @@ const ArtistPageStyle = styled.div`
             flex-basis: 30%;
         }
     }
-    
+    .lgo{
+        height: 5rem;
+        margin: 10px auto 0 auto;
+        display: block;
+    }
 `;
 
 export const ArtistPage = () => {
@@ -99,31 +108,34 @@ export const ArtistPage = () => {
                     <div className = 'artistPageFlex'>
                         <div className = 'basisFlex'>
                             <p className = 'marginTop'>@Corcholata</p>
-                            <img src = {corcholata} alt = 'pepe'/>
+                            <img className = 'artista' src = {corcholata} alt = 'pepe'/>
                         </div>
                         <div className = 'basisFlex2'>
                             <a target = '_blank' href = 'https://www.instagram.com/corcholata666/?hl=es-la'><FaInstagram/></a>
-                            <p>Visista mi instagram para ver mas de mi trabajo</p>
+                            <p>Mi trabajo</p>
+                            <img className = 'lgo' src ={harry} alt= 'icono' />
                         </div>
                     </div>
                     <div className = 'artistPageFlex2'>
                         <div className = 'basisFlex'>
                             <p className = 'marginTop'>@tebotattoomx</p>
-                            <img src = {tebo} alt = 'tebo'/>
+                            <img className = 'artista' src = {tebo} alt = 'tebo'/>
                         </div>
                         <div className = 'basisFlex2'>
                             <a target = '_blank' href = 'https://www.instagram.com/tebotattoomx/?hl=es-la'><FaInstagram/></a>
-                            <p>Visista mi instagram para ver mas de mi trabajo</p>
+                            <p>Mi trabajo</p>
+                            <img className = 'lgo' src ={circulos} alt= 'icono' />
                         </div>
                     </div>
                     <div className = 'artistPageFlex'>
                         <div className = 'basisFlex'>
                             <p className = 'marginTop'>@richigarciasandoval</p>
-                            <img src = {rich} alt = 'rich'/>
+                            <img className = 'artista' src = {rich} alt = 'rich'/>
                         </div>
                         <div className = 'basisFlex2'>
                             <a target = '_blank' href = 'https://www.instagram.com/richigarciasandoval'><FaInstagram/></a>
-                            <p>Visista mi instagram para ver mas de mi trabajo</p>
+                            <p>Mi trabajo</p>
+                            <img className = 'lgo' src ={flechas} alt= 'icono' />
                         </div>
                     </div>
                 </Wrapper>

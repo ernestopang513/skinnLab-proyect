@@ -89,6 +89,7 @@ export const Nav = ({open,handleMenu}) => {
                         </Link>
                     </li>
                 </ul>
+                
             </NavStylish>   
         </>
     )
