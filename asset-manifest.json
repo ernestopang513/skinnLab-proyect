@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skinnLab-proyect/static/css/main.59dd1f3f.chunk.css",
-    "main.js": "/skinnLab-proyect/static/js/main.0d3321c8.chunk.js",
-    "main.js.map": "/skinnLab-proyect/static/js/main.0d3321c8.chunk.js.map",
+    "main.js": "/skinnLab-proyect/static/js/main.ad9166ca.chunk.js",
+    "main.js.map": "/skinnLab-proyect/static/js/main.ad9166ca.chunk.js.map",
     "runtime-main.js": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js",
     "runtime-main.js.map": "/skinnLab-proyect/static/js/runtime-main.90bb410c.js.map",
     "static/js/2.e4b4cf98.chunk.js": "/skinnLab-proyect/static/js/2.e4b4cf98.chunk.js",
@@ -21,11 +21,13 @@
     "static/media/5.37ccf33d.jpg": "/skinnLab-proyect/static/media/5.37ccf33d.jpg",
     "static/media/5.e4086d24.jpg": "/skinnLab-proyect/static/media/5.e4086d24.jpg",
     "static/media/anchor.9660b8d1.svg": "/skinnLab-proyect/static/media/anchor.9660b8d1.svg",
+    "static/media/circulos1.38b03f4a.svg": "/skinnLab-proyect/static/media/circulos1.38b03f4a.svg",
     "static/media/corcholata.dd32a207.jpg": "/skinnLab-proyect/static/media/corcholata.dd32a207.jpg",
     "static/media/cuadrados1.d14af275.svg": "/skinnLab-proyect/static/media/cuadrados1.d14af275.svg",
+    "static/media/flechas.511f3af3.svg": "/skinnLab-proyect/static/media/flechas.511f3af3.svg",
     "static/media/HomeScreen.css": "/skinnLab-proyect/static/media/ladrillosNegros.2a1f6e0e.png",
+    "static/media/harry.3b02e771.svg": "/skinnLab-proyect/static/media/harry.3b02e771.svg",
     "static/media/logoCircular.9798d772.png": "/skinnLab-proyect/static/media/logoCircular.9798d772.png",
-    "static/media/maquina.62717926.png": "/skinnLab-proyect/static/media/maquina.62717926.png",
     "static/media/patternBackground.b2e5696f.jpg": "/skinnLab-proyect/static/media/patternBackground.b2e5696f.jpg",
     "static/media/rich.754ab5cf.jpg": "/skinnLab-proyect/static/media/rich.754ab5cf.jpg",
     "static/media/skinlab-baner.21bda431.png": "/skinnLab-proyect/static/media/skinlab-baner.21bda431.png",
@@ -39,6 +41,6 @@
     "static/js/runtime-main.90bb410c.js",
     "static/js/2.e4b4cf98.chunk.js",
     "static/css/main.59dd1f3f.chunk.css",
-    "static/js/main.0d3321c8.chunk.js"
+    "static/js/main.ad9166ca.chunk.js"
   ]
 }
