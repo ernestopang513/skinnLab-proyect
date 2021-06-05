@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import skinlab from '../../imagenes/skinlab-baner.png';
-import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram,FaFacebookSquare,FaWhatsapp } from "react-icons/fa";
 
 
 // En este Header styled estan contenidos el div que contine los div del menú y la funcion que permite
@@ -107,6 +107,8 @@ export const Header = ({open, handleMenu}) => {
                     <div className = 'box'></div>
                 </div>
                 <div className = 'socialMedia'>
+                                    <a className = 'socialMediaIcon' target = '_blank' href = 'http://wa.me/525513956948'><FaWhatsapp/></a>
+                                    
                                     <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.instagram.com/skinlabcoyoacan/?hl=es-la'><FaInstagram/></a>
                                     
                                     <a className = 'socialMediaIcon' target = '_blank' href = 'https://www.facebook.com/skinlabtatuajesyperforaciones'><FaFacebookSquare/></a>

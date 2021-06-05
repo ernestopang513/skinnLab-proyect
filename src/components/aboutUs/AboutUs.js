@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram,FaFacebookSquare,FaWhatsapp } from "react-icons/fa";
 
 import { Wrapper } from '../../stylish__src/stylish__src'
 import './AboutUs.css';
 import cuadrados from '../../imagenes/cuadrados1.svg';
 // import image from '../../imagenes/tattooAboutUs.png'
+import mapa from '../../imagenes/mapa.jpg'
 
 const AboutUsWrapper = styled.div`
 
@@ -37,7 +38,25 @@ const AboutUsWrapper = styled.div`
             margin-right: 20px;
         }
     .logo{
-        height: 20%;
+        width: 20%;
+        @media (min-width: 768px){
+            width: 10%;
+        }
+    }
+    .mapa{
+        width: 100%;
+        display: block;
+        margin: 30px auto 0 auto;
+        @media (min-width: 768px){
+            width: 50%;
+        }
+    }
+    .wats{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-size: 50px;
     }
 `;
 
@@ -60,11 +79,16 @@ export const AboutUs = () => {
                 </div>
 
                 <img className = 'logo' src = {cuadrados} alt = 'cuadrados'/>
+            <Wrapper>
+
+                <p>No dudes en contactarnos</p>
+                <a className = 'wats' target = '_blank' href = 'http://wa.me/525513956948'><FaWhatsapp/></a>
+                <p>Canal de Miramontes 2960, Coapa, Parque Alameda del Sur, Coyoacán, Ciudad de México, CDMX</p>
+
+                <a target = '_blank' href = 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%3Fapi%3D1%26destination%3D19.307361694118%252C-99.1240866%26fbclid%3DIwAR2StncPcv3-ksKWkkzBbRytP7oPpm0TODbHvr8Lr6fikpvpNvkbUogiTA0&h=AT3njjYG7Qcg4_mPkQWTA123Shr7FJlfMqq5doZnsyKuCAszTlHxUkojUvUTKIM0TOoYhIp97txhUqRhtMoXD048Q6Q7SiE7WcZv8sgbprpqtcQoYz0OZGEmPx7_hfoU1eiD8w'><img  className = 'mapa' alt = 'mapa' src = {mapa}  /></a>
+            </Wrapper>
             </div>
 
-            <Wrapper>
-                <p>Canal de Miramontes 2960, Coapa, Parque Alameda del Sur, Coyoacán, Ciudad de México, CDMX</p>
-            </Wrapper>
         </AboutUsWrapper>
     )
 }

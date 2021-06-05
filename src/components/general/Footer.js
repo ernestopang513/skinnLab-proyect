@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import banner from '../../imagenes/skinlab-baner-black.png';
 
 
 const STCFooter = styled.footer`
@@ -8,17 +9,19 @@ const STCFooter = styled.footer`
     color:black;
     padding:20px 0;
     text-align:center;
-    margin-top:40px;
 
     p{
         color: black;
+    }
+    .logo{
+        width: 100px;
     }
 
 `;
 export const Footer = () => {
     return (
         <STCFooter>
-            <p>Skinlab footer</p>
+            <img className = 'logo' src = {banner} alt = 'logo' />
         </STCFooter>
     )
 }

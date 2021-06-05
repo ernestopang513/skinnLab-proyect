@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Wrapper } from '../../stylish__src/stylish__src'
 import './HomeScreen.css';
 import { ImageSlider } from './slider/ImageSlider';
-import { FaInstagram,FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram,FaFacebookSquare,FaWhatsapp } from "react-icons/fa";
 import logoCircular from '../../imagenes/logoCircular.png'
 import maquina from '../../imagenes/tattooMachine.svg';
 import anchor from '../../imagenes/anchor.svg';
@@ -20,8 +20,10 @@ const BackgroundHome = styled.div`
     .blur{
         background-color: rgba(0,0,0,.3);
         padding-bottom: 30px;
+        padding-top: 30px;
     }
     background-position-y: bottom ;
+    background-position-x: right;
 `;
 
 const SocialMediaIcon = styled.a`
@@ -103,6 +105,11 @@ const WrapperFlexContainer = styled.div`
         display: flex;
 
     }
+    .wats{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
 
 @media (min-width: 768px){
     display: flex;
@@ -139,9 +146,12 @@ export const HomeScreen = () => {
                                 <SocialMediaIcon target = '_blank' href = 'https://www.instagram.com/skin_lab_estudio/?hl=es-la'><FaInstagram/></SocialMediaIcon>
                             </SocialMedia>
 
+                            
+
                             <p style = {{marginTop: '30px'}}>
                                 Tatuajes y perforaciones.
                             </p>
+                                <SocialMediaIcon className = 'wats' target = '_blank' href = 'http://wa.me/525513956948'><FaWhatsapp/></SocialMediaIcon>
                         </div>
                     </WrapperFlexContainer>
                     </div>
