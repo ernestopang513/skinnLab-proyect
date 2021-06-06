@@ -64,7 +64,7 @@ const MaquinaLogo = styled.img`
     }
 `;
 const AnchorLogo = styled.img`
-    margin: 0 auto;
+    margin: 0 auto ;
     width: 30%;
 `;
 
@@ -190,8 +190,8 @@ export const HomeScreen = () => {
                 </div>
                 <div className = 'flexBasis'>
                     <p>Curabitur interdum erat auctor velit dictum ornare. Etiam ut orci nec massa bibendum ultricies. Vestibulum id mollis urna.</p>
-                    <div style = {{display: 'flex',marginTop: '20px'}}>
-                        <AnchorLogo alt = 'logoAnchor' src = {triangulos}/>
+                    <div style = {{display: 'flex',marginTop: '20px', marginBottom: '20px'}}>
+                        <AnchorLogo  alt = 'logoAnchor' src = {triangulos}/>
                     </div>
                 </div>
             
